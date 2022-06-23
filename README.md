@@ -88,3 +88,39 @@ KakaoTalk -
 - `twitter:image`: 페이지의 대표 이미지 주소(URL)
 - `twitter:url`: 페이지 주소(URL)
 
+## Favicon(파비콘, favorites icon)
+
+웹페이지를 나타내는 아이콘, 웹페이지의 로고를 설정합니다.<br>
+대부분의 경우 루트 경로에 `favicon.ico` 파일을 위치하면 자동으로 로딩하기 때문에 `<link />` 를 작성할 필요가 없습니다.
+`favicon.png` 파일을 사용하려면 다음과 같이 `<link />`를 작성하세요.
+
+> 파비콘 이미지는 루트 경로에 있어야 합니다!
+
+```html
+<!--<link rel="shortcut icon" href="favicon.ico" />-->
+<link rel="icon" href="./favicon.png" />
+```
+
+- `favicon.ico` 64 x 64 (px) 또는 32 x 32 또는 16 x 16
+- `favicon.png` 500 x 500 (px)
+
+<img src="https://raw.githubusercontent.com/ParkYoungWoong/starbucks-vanilla-app/master/favicon.png" alt="Starbucks" width="16" />
+<img src="https://raw.githubusercontent.com/ParkYoungWoong/starbucks-vanilla-app/master/favicon.png" alt="Starbucks" width="200" />
+
+### .ico 파일 제작
+
+이미지를 업로드하면 손쉽게 `.ico` 파일을 제작할 수 있습니다.
+
+[iconifier.net](https://iconifier.net/)
+
+## Reset.css
+
+각 브라우저의 기본 스타일을 초기화합니다.
+
+```html
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+/>
+```
+
