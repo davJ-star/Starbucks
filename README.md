@@ -123,4 +123,26 @@ KakaoTalk -
   href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
 />
 ```
+## Google Fonts
 
+페이지에서 사용할 '나눔고딕' 폰트를 지정합니다.
+
+> 폰트 라이선스를 꼭 확인해야 합니다!
+
+[Google Fonts](https://fonts.google.com/)에서 고른 폰트 파일을 가져옵니다.
+
+```html
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+<link
+  href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap"
+  rel="stylesheet"
+/>
+```
+
+페이지에 폰트를 적용(CSS 상속)합니다.
+
+```css
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+}
+```
