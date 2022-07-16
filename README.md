@@ -166,7 +166,8 @@ body {
 ```
 ## Lodash
 
-lodash는 자바스크립트 유틸리티 라이브러리로써 array, collection, date, number, object 등이 있으며, 데이터를 쉽게 다룰 수 있도록 도와줍니다. (특히, 자바스크립트에서 배열 안의 객체들의 값을 핸들링할때 유용)
+lodash는 자바스크립트 유틸리티 라이브러리로써 array, collection, da
+te, number, object 등이 있으며, 데이터를 쉽게 다룰 수 있도록 도와줍니다. (특히, 자바스크립트에서 배열 안의 객체들의 값을 핸들링할때 유용)
 
 [Lodash cdn 시작하기](https://cdnjs.com/libraries/lodash.js)
 + [Lodash 알아보자 - 공식사이트](https://lodash.com/docs/4.17.15)
