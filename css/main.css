@@ -27,6 +27,7 @@ header {
   border-bottom: 1px solid #c8c8c8;
   position: fixed;
   top: 0;
+  z-index: 9;
 }
 header > .inner {
   height: 120px;
@@ -228,7 +229,7 @@ header .badges .badge {
 .visual .spoon {
   position: absolute;
   bottom: 0;
-  right:2752px;
+  left: 275px;
 }
 
 
