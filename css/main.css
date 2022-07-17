@@ -189,35 +189,46 @@ header .badges .badge {
 
 /*VISUAL*/
 .visual {
-
+  margin-top: 120px;
+  background-image: url("../images/visual_bg.jpg");
+  background-position: center;
 }
 .visual .inner {
-  display: flex;
+  height: 646px;
+  background-color: orange;
 }
-.visual .inner .fade-in {
-  /*선택자 다시 고민 바람!*/
-  display: flex;
+.visual .title {
+  position: absolute;
+  top: 88px;
+  left: -10px;
 }
-.visual .inner .title {
-  flex-direction: column;
-  align-items: center;
+.visual .title .btn {
+  
 }
-.visual .inner .btn {
-  text-decoration: none;
-  text-align: center;
-
-  padding: 5px 10px;
-  /*flex의 item css 처리해도 되겠지만.. 우선 margin으로 대체*/
-  margin: 15px 0;
-  color: #8d6d5f;
-  border: #8d6d5f 3px solid;
-  border-radius: 5px;
-  /*font-family*/
+.visual .cup1.image {
+  position: absolute;
+  bottom: 0;
+  right: -47px;
 }
-.visual .inner .fade-in>img:nth-child(2){
-  /*선택자 다시 고민 바람!*/
-  border: pink 5px solid;
-  /*정렬해주던지 사이즈 조절!*/
+.visual .cup1.text {
+  position: absolute;
+  top: 38px;
+  right: 171px;
+}
+.visual .cup2.image {
+  position: absolute;
+  bottom: 0;
+  right: 162px;
+}
+.visual .cup2.text {
+  position: absolute;
+  top: 321px;
+  right: 416px;
+}
+.visual .spoon {
+  position: absolute;
+  bottom: 0;
+  right:2752px;
 }
 
 
@@ -225,4 +236,5 @@ header .badges .badge {
 
 
 
-/*그외 개별적으로 적용*/
+
+
