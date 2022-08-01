@@ -231,10 +231,51 @@ header .badges .badge {
   left: 275px;
 }
 
+/*아래는 다시 진행! - 대략 했음!*/
+.visual .fade-in {
+  opacity: 0;
+}
 
+.btn {
+  /*테두리 radius, color*/
+  /*font(color포함)*/
+  cursor: pointer;
+  box-sizing: border-box;
+  display: block;
+  transition: .4s
+}
+.btn:hover {
+  /*bg-color*/
+  /*color*/
+  
+}
+.btn .btn--reverse {
+  /*bg-color*/
+  /*color*/
+}
+.btn .btn--reverse:hover {
+  /*bg-color*/
+  /*color*/
+  
+}
+.btn .btn--brown {
+  /*bg-color*/
+  /*color*/
 
+}
+.btn .btn--brown:hover {
+  /*bg-color*/
+  /*color*/
+  
+}
+.btn .btn--gold {
+  /*bg-color*/
+  /*color*/
 
-
-
-
+}
+.btn .btn--gold:hover {
+  /*bg-color*/
+  /*color*/
+  
+}
 

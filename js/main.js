@@ -37,3 +37,38 @@ window.addEventListener('scroll', _.throttle(function () {
   }
 }, 300))
 // _.throttle(함수, 시간)
+const fadeEls = document.querySelectorAll("fade-in")
+fadeEls.forEach((fadeEl, index)=>{
+  gsap.to(fadeEl, 6, {
+    delay: index * 0.7,
+    opacity: 1;
+  })
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
